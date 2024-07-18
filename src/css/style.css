@@ -17,8 +17,9 @@ body{
     font-size: 30px;
 }
 
-.background{
-    background-color:  hsla(45, 100%, 50%, 1);
+.background {
+  background-color: hsla(45, 100%, 50%, 1);
+  width: 100%;
 }
 
 .background h1{
