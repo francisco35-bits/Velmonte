@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/css/style.css" type="text/css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
     <link rel="shortcut icon" href="src/img/icono.png" />
     <title>Velmonte</title>
@@ -74,7 +75,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1>BIENVENIDO SOMOS VELMONTE</h1>
+              <h1 class="display-3">BIENVENIDO SOMOS VELMONTE</h1>
             </div>
             <div class="col-md-6">
               <video src="src/img/video-de-whatsapp-2024-05-30-a-las-093213-af4f0c82-online-video-cuttercom_IJOkt5il.mp4" loop autoplay muted class="embed-responsive embed-responsive-16by9"></video>
@@ -183,6 +184,7 @@
       </section>
       <section id="Saber-Más">
         <div class="container mt-5">
+          <h1>SABER MÁS</h1>
           <div class="row">
             <div class="col-md-4">
               <div class="card">
@@ -217,6 +219,41 @@
           </div>
         </div>
       </section>
+      <section id="Nuestro" class="p-10">
+        <div class="container mt-5">
+          <h2>Nuestro Contrato</h2>
+          <div class="row">
+            <!-- Contrato 1 -->
+            <div class="col-md-6 mb-4">
+              <div class="border-custom p-3">
+                <h5>Contrato de Adhesión Profeco Boquerón</h5>
+                <p>CONTRATO DE BOQUERON</p>
+                <p>Este contrato describe los términos y condiciones para los servicios proporcionados por Velmonte. Incluye detalles sobre el alcance del servicio, tarifas y obligaciones.</p>
+                <div class="mt-3">
+                  <iframe src="src/pdf/Contrato de adhesion PROFECO Boqueron .pdf" width="100%" height="600px" style="border: none;"></iframe>
+                  <a href="src/pdf/Contrato de adhesion PROFECO Boqueron .pdf" target="_blank" class="btn btn-secondary"><i class="bi bi-eye"></i> Ver Contracto
+                  </a>
+                  <a href="src/pdf/Contrato de adhesion PROFECO Boqueron .pdf" download="Contrato_Servicios.pdf" class="btn btn-primary"><i class="bi bi-download me-2"></i> Descargar Contracto
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Contrato 2 -->
+            <div class="col-md-6 mb-4">
+              <div class="border-custom p-3">
+                <h5>Contrato de Adhesión Profeco Belisario</h5>
+                <p>CONTRATO DE BELISARIO</p>
+                <p>Este contrato establece los términos y condiciones para el préstamo de bienes. Detalla el proceso de préstamo, las condiciones de devolución y las responsabilidades de las partes involucradas.</p>
+                <div class="mt-3">
+                  <iframe src="src/pdf/Contrato de adhesion PROFECO Belisario .pdf" width="100%" height="600px" style="border: none;"></iframe>
+                  <a href="src/pdf/Contrato de adhesion PROFECO Belisario .pdf" target="_blank" class="btn btn-secondary"><i class="bi bi-eye"></i> Ver Contracto</a>
+                  <a href="src/pdf/Contrato de adhesion PROFECO Belisario .pdf" download="Contrato_Prestamo.pdf" class="btn btn-primary"><i class="bi bi-download me-2"></i> Descargar Contracto</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <footer class="footer">
         <div class="container">
           <div class="row">
@@ -230,7 +267,7 @@
               <ul class="list-unstyled footer-links">
                 <li><a href="#Inicio">Inicio</a></li>
                 <li><a href="#Información">Información</a></li>
-                <li><a href="#Productos">Productos</a></li>
+                <li><a href="#Nuestro">Contracto</a></li>
                 <li><a href="#Saber-Más">Saber Más</a></li>
                 <li><a href="#Contactos">Contacto</a></li>
               </ul>
@@ -258,6 +295,7 @@
 </body>
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="src/js/contracto.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
 </html>

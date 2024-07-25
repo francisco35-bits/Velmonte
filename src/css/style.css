@@ -60,3 +60,26 @@ body{
     padding: 10px;
     margin-top: 20px;
 }
+
+.border-custom {
+  border: 2px solid #007bff; /* Color y grosor del borde */
+  border-radius: 10px; /* Radio de las esquinas */
+  padding: 15px; /* Espacio interno */
+  margin-bottom: 20px; /* Espacio entre los contratos */
+  background-color: #f8f9fa; /* Fondo ligero para el contenedor */
+}
+
+iframe {
+  border-radius: 5px; /* Esquinas redondeadas del iframe */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Color de fondo del botón */
+  border-color: #007bff; /* Color del borde del botón */
+  color: #fff; /* Color del texto del botón */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+  border-color: #004085; /* Color del borde del botón al pasar el ratón */
+}
